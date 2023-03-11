@@ -3,7 +3,7 @@ export const locale = {
     data: {
         'about': {
             'title': 'About',
-            'jobTitle': 'Web and mobile application developer',
+            'jobTitle': 'Full-stack Software Engineer',
             'introductionOfMe': 'Interested in new technologies and working methods. I like to come up with ideas that to permit to improve business processes.',
             'passionateAboutDevelopment':'Passionate about development',
             'mobility': 'Mobile throughout France',
