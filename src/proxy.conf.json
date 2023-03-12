@@ -1,0 +1,7 @@
+{
+    "/*": {
+        "target": "https://tanvirkse101.github.io/portfolio",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
