@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "deploy": "ng b --prod --base-href https://github.com/tanvirkse101/portfolio/tree/gh-pages/ && npx ngh --dir=dist/my-portfolio/"
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.1",
     "@angular/cdk": "^11.2.13",
