@@ -10,9 +10,9 @@ import { locale as french } from '../shared/i18n/fr';
 })
 export class SkillsComponent implements OnInit {
   skills:any={
-    technologies:[{name:"Java, J2EE, Spring, C#",percent:90,remark:'excellent'}, {name:"PHP",percent:70,remark:'good'},{name:"Android",percent:90,remark:'excellent'},{name:"Python, C++",percent:70,remark:'very-good'}, {name:"JavaScript, BootStrap, Angular", percent:90,remark:'excellent'}],
-    tools:[{name:"Git",percent:90,remark:'excellent'},{name:"Office",percent:90,remark:'excellent'},{name:"Linux, Windows",percent:70,remark:'very-good'},{name:"MySql, PgSql",percent:90,remark:'excellent'},{name:"Docker, Kubernetes",percent:50,remark:'average'}],
-    methodologies:[{name:"Scrum",percent:70,remark:'very-good'},{name:"Uml",percent:90,remark:'excellent'},{name:"Disign Thinking",percent:70,remark:'good'},{name:"TDD",percent:90,remark:'excellent'},{name:"DevOps",percent:50,remark:'average'}]
+    technologies:[{name:"Python, Django, Flask",percent:95,remark:'excellent'}, {name:"Java, Spring-Boot",percent:75,remark:'good'},{name:"PHP, CodeIgniter",percent:75,remark:'good'}, {name:"JavaScript,TypeScript, Angular 8+", percent:75,remark:'good'}, {name:"Golang, Gin", percent:50,remark:'average'}],
+    tools:[{name:"Git",percent:90,remark:'excellent'},{name:"Jupyter Notebook, Selenium, Scrappy",percent:50,remark:'average'},{name:"Linux, Windows",percent:90,remark:'very-good'},{name:"MySQL, PostgreSQL, MongoDB",percent:90,remark:'excellent'},{name:"Docker, Jenkins",percent:75,remark:'good'}],
+    methodologies:[{name:"Scrum, Agile",percent:75,remark:'very-good'},{name:"SDS, SRS, Documentation",percent:75,remark:'very-good'},{name:"PDCA",percent:75,remark:'very-good'},{name:"TDD, Testing",percent:60,remark:'average'},{name:"DevOps",percent:75,remark:'very-good'}]
   };
 
   constructor(private _translationLoaderService: TranslationLoaderService) {

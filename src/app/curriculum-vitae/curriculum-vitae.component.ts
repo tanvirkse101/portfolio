@@ -17,6 +17,7 @@ export class CurriculumVitaeComponent implements OnInit {
   planeIcon: any ;
   gameIcon:any;
   volleyBallIcon:any;
+  musicIcon:any;
 
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, french);
@@ -31,9 +32,10 @@ export class CurriculumVitaeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.planeIcon=awesom.faPlane;
+    this.planeIcon=awesom.faFilm;
     this.gameIcon=awesom.faGamepad;
     this.volleyBallIcon=awesom.faVolleyballBall;
+    this.musicIcon=awesom.faMusic;
   }
   
   detailOnClick(experience:any) {
