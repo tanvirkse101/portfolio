@@ -37,9 +37,9 @@
                         </div>
                         <p *ngIf="experience.detailIsDisplayed">
                             <span *ngFor="let mission of experience.missions;let index = index">
-                                <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                                <strong><i class="fa fa-check"></i> : </strong>{{mission}} <br>
                             </span>
-                            <strong>{{'education.technologies' | translate}}:</strong> {{experience.technologies}}
+                            <strong><i class="fa fa-cogs" aria-hidden="true"></i> {{'education.technologies' | translate}}:</strong> {{experience.technologies}}
                         </p>
                     </li>
 
