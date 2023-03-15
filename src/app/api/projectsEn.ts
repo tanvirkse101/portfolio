@@ -5,16 +5,16 @@ export const projectsEn = [
         technologies: 'Python, Django, Angular.js, MongoDB',
         images: [
             {
-                title:'Trip',
-                src: "assets/images/voyages.webp",
+                title:'Home',
+                src: "assets/images/vis-home.png",
             },
             {
-                title:'Trip',
-                src:"assets/images/voyage.webp",
+                title:'User',
+                src:"assets/images/vis-user.png",
             },
             {
-                title:'Housing',
-                src: "assets/images/logements.webp",
+                title:'Admin',
+                src: "assets/images/vis-admin.png",
             },
         ],
         url: "https://www.vinternship.org/",
@@ -28,21 +28,17 @@ export const projectsEn = [
         technologies: 'Python, Flask, Angular 8, PostgreSQL',
         images: [
             {
-                title:'Marketing campaigns',
-                src:   "assets/images/compagnes.jpg",
+                title:'Home',
+                src:   "assets/images/ncdw-home.png",
             },
             {
-                title:'Campaign detail',
-                src :"assets/images/compagne-detail.jpg",
+                title:'Map',
+                src :"assets/images/ncdw-map.png",
             },
             {
-                title:"Email performance",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title:"Performance of an asset",
-                src: "assets/images/asset-detail.jpg" 
-            },
+                title:"Admin",
+                src: "assets/images/ncdw-lab.png",
+            }
             
         ],
         url:'http://103.94.135.217:4444/home',
