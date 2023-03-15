@@ -325,7 +325,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _c0 = function () { return { backgroundImage: "url(assets/images/home-background.jpg)" }; };
+const _c0 = function () { return { backgroundImage: "url(assets/images/home-background-5.png)" }; };
 class HomeComponent {
     constructor(_translationLoaderService) {
         this._translationLoaderService = _translationLoaderService;
