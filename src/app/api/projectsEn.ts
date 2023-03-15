@@ -1,8 +1,8 @@
 export const projectsEn = [
     {
-        id:"teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        id:"VIS",
+        name: "Virtual Internship System",
+        technologies: 'Python, Django, Angular.js, MongoDB',
         images: [
             {
                 title:'Trip',
@@ -17,15 +17,15 @@ export const projectsEn = [
                 src: "assets/images/logements.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
+        url: "https://www.vinternship.org/",
+        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> no more problems with choices or disagreements.",
         codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },
     {
-        id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        id:"NCDW",
+        name: "National Health Data Warehouse",
+        technologies: 'Python, Flask, Angular 8, PostgreSQL',
         images: [
             {
                 title:'Marketing campaigns',
@@ -45,19 +45,19 @@ export const projectsEn = [
             },
             
         ],
-        url:'#portfolio',
-        detail:"<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        url:'http://103.94.135.217:4444/home',
+        detail:"<p>NCDW is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
+        codeSourceUrl:'https://github.com/zinedineBenkhider/NCDW_monitoring',
         detailIsDisplayed: false,
     },
     {
-        id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        id:"HMS",
+        name: "Hospital Management System",
+        technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
                 title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                src:   "assets/images/HMS.png",
             },
             {
                 title:'Trainers',
@@ -73,35 +73,20 @@ export const projectsEn = [
         codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
         detailIsDisplayed: false,
     },
-    {
-        id:"portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
-        images: [
-            {
-                title:'Portfolio',
-                src:   "assets/images/portfolio.png",
-            },
-        ],
-        url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
-        detailIsDisplayed: false,
-    },
-    {
-        id:"riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
-        images: [
-            {
-                title:'Riddle',
-                src:   "assets/images/riddle.png",
-            },
-        ],
-        url:'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail:"Display of the steps for solving the decanting puzzle. Given two empty tanks of capacity X and Y, how to obtain precisely T liters in one of the two tanks (T being an integer). You can fill or empty a tank , and transfer the contents from one to the other, until the source is empty or the destination full.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/transfer_riddle_client',
-        detailIsDisplayed: false,
-    },
+    // {
+    //     id:"portfolio",
+    //     name: "Book Worms",
+    //     technologies: 'Django, JavaScript, jQuery, MySQL',
+    //     images: [
+    //         {
+    //             title:'Portfolio',
+    //             src:   "assets/images/portfolio.png",
+    //         },
+    //     ],
+    //     url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
+    //     detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
+    //     codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
+    //     detailIsDisplayed: false,
+    // },
 ];
 

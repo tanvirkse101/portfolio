@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "projectsEn", function() { return projectsEn; });
 const projectsEn = [
     {
-        id: "teamTraveler",
+        id: "VIS",
         name: "Team Traveler",
         technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
         images: [
@@ -29,14 +29,14 @@ const projectsEn = [
                 src: "assets/images/logements.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail: "The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
+        url: "https://play.google.com/store/apps/details?id=team.traveler.VIS",
+        detail: "The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> no more problems with choices or disagreements.",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },
     {
-        id: "mautic",
-        name: "Mautic Monitoring",
+        id: "NCDW",
+        name: "NCDW Monitoring",
         technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
         images: [
             {
@@ -57,18 +57,18 @@ const projectsEn = [
             },
         ],
         url: '#portfolio',
-        detail: "<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
-        codeSourceUrl: 'https://github.com/zinedineBenkhider/mautic_monitoring',
+        detail: "<p>NCDW is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
+        codeSourceUrl: 'https://github.com/zinedineBenkhider/NCDW_monitoring',
         detailIsDisplayed: false,
     },
     {
-        id: "pokedex",
+        id: "HMS",
         name: "Pokedex",
         technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
         images: [
             {
                 title: 'Pokedex',
-                src: "assets/images/pokedex.png",
+                src: "assets/images/HMS.png",
             },
             {
                 title: 'Trainers',
@@ -2065,7 +2065,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "projectsFr", function() { return projectsFr; });
 const projectsFr = [
     {
-        id: "teamTraveler",
+        id: "VIS",
         name: "Team Traveler",
         technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
         images: [
@@ -2082,14 +2082,14 @@ const projectsFr = [
                 src: "assets/images/logements.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail: "L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> plus de problème de choix ou désaccords.",
+        url: "https://play.google.com/store/apps/details?id=team.traveler.VIS",
+        detail: "L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> plus de problème de choix ou désaccords.",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },
     {
-        id: "mautic",
-        name: "Mautic Monitoring",
+        id: "NCDW",
+        name: "NCDW Monitoring",
         technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
         images: [
             {
@@ -2110,18 +2110,18 @@ const projectsFr = [
             },
         ],
         url: '#portfolio',
-        detail: "<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
-        codeSourceUrl: 'https://github.com/zinedineBenkhider/mautic_monitoring',
+        detail: "<p>NCDW est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
+        codeSourceUrl: 'https://github.com/zinedineBenkhider/NCDW_monitoring',
         detailIsDisplayed: false,
     },
     {
-        id: "pokedex",
+        id: "HMS",
         name: "Pokedex",
         technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
         images: [
             {
                 title: 'Pokedex',
-                src: "assets/images/pokedex.png",
+                src: "assets/images/HMS.png",
             },
             {
                 title: 'Trainers',
@@ -2432,9 +2432,9 @@ class ProjectsComponent {
     ngAfterViewInit() {
         console.log("after view init");
         this.onMouse("portfolio-link", "portfolio-img");
-        this.onMouse("teamTraveler-link", "teamTraveler-img");
-        this.onMouse("mautic-link", "mautic-img");
-        this.onMouse("pokedex-link", "pokedex-img");
+        this.onMouse("VIS-link", "VIS-img");
+        this.onMouse("NCDW-link", "NCDW-img");
+        this.onMouse("HMS-link", "HMS-img");
         this.onMouse("riddle-link", "riddle-img");
         this.venobox = $('.venobox');
         this.venobox.venobox();

@@ -1,6 +1,6 @@
 export const projectsFr = [
     {
-        id:"teamTraveler",
+        id:"VIS",
         name: "Team Traveler",
         technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
         images: [
@@ -17,14 +17,14 @@ export const projectsFr = [
                 src: "assets/images/logements.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> plus de problème de choix ou désaccords.",
+        url: "https://play.google.com/store/apps/details?id=team.traveler.VIS",
+        detail:"L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> plus de problème de choix ou désaccords.",
         codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },
     {
-        id:"mautic",
-        name: "Mautic Monitoring",
+        id:"NCDW",
+        name: "NCDW Monitoring",
         technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
         images: [
             {
@@ -46,18 +46,18 @@ export const projectsFr = [
             
         ],
         url:'#portfolio',
-        detail:"<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        detail:"<p>NCDW est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
+        codeSourceUrl:'https://github.com/zinedineBenkhider/NCDW_monitoring',
         detailIsDisplayed: false,
     },
     {
-        id:"pokedex",
+        id:"HMS",
         name: "Pokedex",
         technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
         images: [
             {
                 title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                src:   "assets/images/HMS.png",
             },
             {
                 title:'Trainers',

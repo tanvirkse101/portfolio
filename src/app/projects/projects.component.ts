@@ -33,9 +33,9 @@ export class ProjectsComponent implements OnInit {
   ngAfterViewInit(){
     console.log("after view init");
     this.onMouse("portfolio-link", "portfolio-img");
-    this.onMouse("teamTraveler-link", "teamTraveler-img");
-    this.onMouse("mautic-link", "mautic-img");
-    this.onMouse("pokedex-link", "pokedex-img");
+    this.onMouse("VIS-link", "VIS-img");
+    this.onMouse("NCDW-link", "NCDW-img");
+    this.onMouse("HMS-link", "HMS-img");
     this.onMouse("riddle-link", "riddle-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
