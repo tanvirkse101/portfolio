@@ -13,58 +13,54 @@ __webpack_require__.r(__webpack_exports__);
 const projectsEn = [
     {
         id: "VIS",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        name: "Virtual Internship System",
+        technologies: 'Python, Django, Angular.js, MongoDB',
         images: [
             {
-                title: 'Trip',
-                src: "assets/images/voyages.webp",
+                title: 'Home',
+                src: "assets/images/vis-home.png",
             },
             {
-                title: 'Trip',
-                src: "assets/images/voyage.webp",
+                title: 'User',
+                src: "assets/images/vis-user.png",
             },
             {
-                title: 'Housing',
-                src: "assets/images/logements.webp",
+                title: 'Admin',
+                src: "assets/images/vis-admin.png",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.VIS",
+        url: "https://www.vinternship.org/",
         detail: "The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> no more problems with choices or disagreements.",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },
     {
         id: "NCDW",
-        name: "NCDW Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        name: "National Health Data Warehouse",
+        technologies: 'Python, Flask, Angular 8, PostgreSQL',
         images: [
             {
-                title: 'Marketing campaigns',
-                src: "assets/images/compagnes.jpg",
+                title: 'Home',
+                src: "assets/images/ncdw-home.png",
             },
             {
-                title: 'Campaign detail',
-                src: "assets/images/compagne-detail.jpg",
+                title: 'Map',
+                src: "assets/images/ncdw-map.png",
             },
             {
-                title: "Email performance",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title: "Performance of an asset",
-                src: "assets/images/asset-detail.jpg"
-            },
+                title: "Admin",
+                src: "assets/images/ncdw-lab.png",
+            }
         ],
-        url: '#portfolio',
+        url: 'http://103.94.135.217:4444/home',
         detail: "<p>NCDW is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/NCDW_monitoring',
         detailIsDisplayed: false,
     },
     {
         id: "HMS",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        name: "Hospital Management System",
+        technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
                 title: 'Pokedex',
@@ -84,36 +80,6 @@ const projectsEn = [
         codeSourceUrl: 'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
         detailIsDisplayed: false,
     },
-    {
-        id: "portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
-        images: [
-            {
-                title: 'Portfolio',
-                src: "assets/images/portfolio.png",
-            },
-        ],
-        url: 'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail: "<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
-        codeSourceUrl: 'https://github.com/zinedineBenkhider/portfolio',
-        detailIsDisplayed: false,
-    },
-    {
-        id: "riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
-        images: [
-            {
-                title: 'Riddle',
-                src: "assets/images/riddle.png",
-            },
-        ],
-        url: 'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail: "Display of the steps for solving the decanting puzzle. Given two empty tanks of capacity X and Y, how to obtain precisely T liters in one of the two tanks (T being an integer). You can fill or empty a tank , and transfer the contents from one to the other, until the source is empty or the destination full.",
-        codeSourceUrl: 'https://github.com/zinedineBenkhider/transfer_riddle_client',
-        detailIsDisplayed: false,
-    },
 ];
 
 
@@ -126,7 +92,7 @@ const projectsEn = [
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Tanvir\Documents\Extra\portfolio\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Git-Projects\portfolio\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -451,35 +417,33 @@ function CurriculumVitaeComponent_li_56_span_10_Template(rf, ctx) { if (rf & 1) 
 function CurriculumVitaeComponent_li_56_p_13_span_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "strong");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "i", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " : ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const mission_r6 = ctx.$implicit;
-    const index_r7 = ctx.index;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 3, "education.mission"), " ", index_r7 + 1, ": ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", mission_r6, " ");
 } }
 function CurriculumVitaeComponent_li_56_p_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CurriculumVitaeComponent_li_56_p_13_span_1_Template, 6, 5, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CurriculumVitaeComponent_li_56_p_13_span_1_Template, 6, 1, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "strong");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](4, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "i", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](5, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const experience_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", experience_r1.missions);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](4, 3, "education.technologies"), ":");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 3, "education.technologies"), ":");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", experience_r1.technologies, " ");
 } }
@@ -504,7 +468,7 @@ function CurriculumVitaeComponent_li_56_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](12, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, CurriculumVitaeComponent_li_56_p_13_Template, 6, 5, "p", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, CurriculumVitaeComponent_li_56_p_13_Template, 7, 5, "p", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const experience_r1 = ctx.$implicit;
@@ -549,7 +513,7 @@ class CurriculumVitaeComponent {
     }
 }
 CurriculumVitaeComponent.ɵfac = function CurriculumVitaeComponent_Factory(t) { return new (t || CurriculumVitaeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_translation_loader_service__WEBPACK_IMPORTED_MODULE_6__["TranslationLoaderService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__["TranslateService"])); };
-CurriculumVitaeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CurriculumVitaeComponent, selectors: [["app-curriculum-vitae"]], decls: 122, vars: 77, consts: [["id", "cv"], [1, "container"], [1, "bar-title", "mb-5"], [1, "row"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "col-lg-4", "col-md-6"], [1, "timeline"], [1, "font-italic"], [1, "year", "p-2", "d-flex", "justify-content-center"], [4, "ngFor", "ngForOf"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "col-lg-4", "col-md-12", "aos-init", "aos-animate"], [1, "container", "row"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "aos-init", "aos-animate"], [1, "noProgress", "langue"], [1, ""], ["src", "assets/images/jap-flag.png", "width", "20", "alt", "drapeau de la france"], [1, "val"], ["src", "assets/images/united-kingdom-flag.png", "width", "20", "alt", "drapeau du royaume uni"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "mt-3", "aos-init", "aos-animate"], [3, "icon"], [1, "d-flex", "flex-row"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [4, "ngIf"]], template: function CurriculumVitaeComponent_Template(rf, ctx) { if (rf & 1) {
+CurriculumVitaeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CurriculumVitaeComponent, selectors: [["app-curriculum-vitae"]], decls: 122, vars: 77, consts: [["id", "cv"], [1, "container"], [1, "bar-title", "mb-5"], [1, "row"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "col-lg-4", "col-md-6"], [1, "timeline"], [1, "font-italic"], [1, "year", "p-2", "d-flex", "justify-content-center"], [4, "ngFor", "ngForOf"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "col-lg-4", "col-md-12", "aos-init", "aos-animate"], [1, "container", "row"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "aos-init", "aos-animate"], [1, "noProgress", "langue"], [1, ""], ["src", "assets/images/jap-flag.png", "width", "20", "alt", "drapeau de la france"], [1, "val"], ["src", "assets/images/united-kingdom-flag.png", "width", "20", "alt", "drapeau du royaume uni"], ["data-aos", "fade-up", "data-aos-delay", "300", 1, "mt-3", "aos-init", "aos-animate"], [3, "icon"], [1, "d-flex", "flex-row"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [4, "ngIf"], ["aria-hidden", "true", 1, "fa", "fa-cogs"], [1, "fa", "fa-check"]], template: function CurriculumVitaeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
@@ -884,10 +848,10 @@ const experiencesEn = [
         period: "2022/12",
         technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
-            "Implementation of a theme manager (colors, logo).",
-            "Setting up a virtual folder manager that can contain Qlik Sense apps.",
-            "Development of a resource saving interface.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+            "Full-stack Development",
+            "Bug fix of Github issues",
+            "Learn Japanese workplace culture & workflow",
+            "Study Japanese language",
         ],
         detailIsDisplayed: false,
     },
@@ -897,8 +861,12 @@ const experiencesEn = [
         period: "2021/02-2022/04",
         technologies: 'Python, Django, Flask, Angular 8',
         missions: [
-            "Development of a supplier rating application by buyers.",
-            "Evolutionary and corrective maintenance of applications.",
+            "Full stack development of VIS Project",
+            "Front-end development of NCDW",
+            "Server Deployment",
+            "System Design",
+            "Survey & Research",
+            "Mentorship of interns",
         ],
         detailIsDisplayed: false,
     },
@@ -908,10 +876,10 @@ const experiencesEn = [
         period: "2020/09-2021/01",
         technologies: 'Java, Spring-Boot, Angular, MongoDB',
         missions: [
-            "Application for managing trucks entering the site",
-            "Improving an application for creating prevention plans.",
-            "Glass order formatting application, in the interest of better readability of priorities for production teams.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+            "Full-stack Development",
+            "Develop Hospital Management System with Spring-Boot, Angular & MongoDB",
+            "Develop modules of e-Learning Platform using PHP, CodeIgniter & MySQL",
+            "Study Japanese language",
         ],
         detailIsDisplayed: false,
     }
@@ -2462,7 +2430,7 @@ class ProjectsComponent {
     }
 }
 ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_translation_loader_service__WEBPACK_IMPORTED_MODULE_5__["TranslationLoaderService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__["TranslateService"])); };
-ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 9, vars: 4, consts: [["id", "portfolio"], [1, "container"], [1, "bar-title", "mb-5"], [1, "row"], ["class", "col-lg-4 col-sm-12 ", "data-aos", "flip-up", 4, "ngFor", "ngForOf"], ["data-aos", "flip-up", 1, "col-lg-4", "col-sm-12"], [1, "card", "shadow-lg", "p-3", "mb-5", "bg-white", "rounded"], [1, "card-header", "d-flex", "flex-column", 2, "height", "300px", "width", "100%"], [1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "id", "ngStyle"], [1, "links", "mt-auto", "d-flex", "justify-content-center", 3, "id"], ["data-gall", "project.id", "class", "venobox vbox-item", 3, "href", "title", 4, "ngFor", "ngForOf"], ["title", "", "target", "_BLANK", 3, "href"], [1, "bx", "bx-link", "bx-md"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "d-flex", "flex-row", "justify-content-center"], ["target", "_blank", "target", "_blank", "type", "button", 1, "btn", "btn-primary", "mr-3", 3, "href"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [4, "ngIf"], ["class", "mt-3", 3, "innerHTML", 4, "ngIf"], ["data-gall", "project.id", 1, "venobox", "vbox-item", 3, "href", "title"], ["class", "bx bx-zoom-in bx-md", 4, "ngIf"], [1, "bx", "bx-zoom-in", "bx-md"], [1, "mt-3", 3, "innerHTML"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 9, vars: 4, consts: [["id", "portfolio"], [1, "container"], [1, "bar-title", "mb-5"], [1, "row"], ["class", "col-lg-4 col-sm-12 ", "data-aos", "flip-up", 4, "ngFor", "ngForOf"], ["data-aos", "flip-up", 1, "col-lg-4", "col-sm-12"], [1, "card", "shadow-lg", "p-3", "mb-5", "bg-white", "rounded", 2, "border-radius", "50px"], [1, "card-header", "d-flex", "flex-column", 2, "height", "300px", "width", "100%"], [1, "img-wrap", 2, "height", "300px", "width", "100%", 3, "id", "ngStyle"], [1, "links", "mt-auto", "d-flex", "justify-content-center", 3, "id"], ["data-gall", "project.id", "class", "venobox vbox-item", 3, "href", "title", 4, "ngFor", "ngForOf"], ["title", "", "target", "_BLANK", 3, "href"], [1, "bx", "bx-link", "bx-md"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "d-flex", "flex-row", "justify-content-center"], ["target", "_blank", "target", "_blank", "type", "button", 1, "btn", "btn-primary", "mr-3", 3, "href"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [4, "ngIf"], ["class", "mt-3", 3, "innerHTML", 4, "ngIf"], ["data-gall", "project.id", 1, "venobox", "vbox-item", 3, "href", "title"], ["class", "bx bx-zoom-in bx-md", 4, "ngIf"], [1, "bx", "bx-zoom-in", "bx-md"], [1, "mt-3", 3, "innerHTML"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
