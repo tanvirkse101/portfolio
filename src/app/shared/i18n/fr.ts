@@ -2,82 +2,86 @@ export const locale = {
     lang: 'fr',
     data: {
         'about': {
-            'title': 'A propos',
-            'jobTitle': "Développeur d'applications web et mobiles",
-            'introductionOfMe': "Intéressé par les nouvelles technologies et méthodes de travail. J'aime proposer des idées qui permettent d'améliorer les processus d'affaires.",
-            'passionateAboutDevelopment':' Passionné par le développement',
-            'mobility': 'Mobile dans toute la France',
-            'years': 'ans',
-            'graduation': "Master 2 Informatique",
-            'myResearch': 'Recherche de contrat CDI',
-            'researchDescription': "Je recherche une entreprise innovante et centrée sur l'utilisateur pour répondre au mieux aux besoins du client, de son idée à la livraison finale de son projet, ou participer à l'amélioration d'un projet existant.",
-            'and':'et',
-            'followMeOn':'Suivez-moi sur',
+            'title': '自己紹介',
+            'jobTitle': 'フルスタックソフトウェアエンジニア',
+            'introductionOfMe': '新しいテクノロジー、フルスタック開発、DevOpsに興味があります。私はPDCAを使用して私のプロジェクトに新しい機能を研究し、理論を構築し、実装することが好きです。',
+            'passionateAboutDevelopment':'開発に情熱を注いでいます：',
+            'mobility': 'バングラデシュ、ダッカ',
+            'years': '年',
+            'graduation': "コンピューターサイエンス＆エンジニアリングの学士",
+            'myResearch': 'CSEメジャー：ML＆AI',
+            'researchDescription': 'プログラミングスキルを活用し、チームワークに参加し、先輩や同僚から学び、国際的な大規模なプロジェクトに貢献し、ソフトウェアエンジニアとして成長できる企業を探しています。',
+            'and':'と',
+            'followMeOn':'フォローしてください',
         },
         'contact': {
-            'contactMe': 'Contactez moi',
-            'notHesitateToContactMe': "N'hésitez pas à me contacter",
-            'identify': 'Identifiant',
-            'enterIdentify': 'Entrez votre identifiant',
-            'email': 'Email',
-            'enterEmail': 'Entrez votre Email',
-            'object': 'Objet',
-            'enterObject': "Saisissez l'objet",
-            'message': 'Message',
-            'send': 'Envoyer',
+            'contactMe': 'お問い合わせ',
+            'notHesitateToContactMe': 'お気軽にお問い合わせください',
+            'identify': 'お名前',
+            'enterIdentify': 'お名前を入力してください',
+            'email': 'メールアドレス',
+            'enterEmail': 'メールアドレスを入力してください',
+            'object': '件名',
+            'enterObject': '件名を入力してください',
+            'message': 'メッセージ',
+            'send': '送信する',
         },
         'education': {
-            'title': 'Curriculum Vitae',
-            'eductionTitle': 'Éducation',
-            'experiencesTitle': 'Expériences',
-            'centerOfInterest': "Centre d'intérêts",
-            'sport': 'Sport',
+            'title': '履歴書',
+            'eductionTitle': '学歴',
+            'experiencesTitle': '経験',
+            'centerOfInterest': '興味の中心',
+            'sport': 'スポーツ',
             'trips': 'アニメ',
             'music': '音楽',
-            'boardGames': 'Jeux de société',
-            'languages': 'Langues',
-            'fluent': 'N4~N3',
-            'goodLevel': '上級レベル',
+            'boardGames': 'ビデオゲーム',
+            'languages': '言語',
+            'fluent': 'N4〜N3',
+            'goodLevel': '優れた',
             'french': '日本語',
             'english': '英語',
-            'masterDegreeTwo': "Master 2 Informatique E-services",
-            'masterDegreeTwoDesc': "Master en services numériques",
-            'masterDegreeOne': "Master 1 Informatique",
-            'masterDegreeOneDesc': "Master Général Informatique",
-            'bachlorDegree': "Licence 3 Informatique",
-            'bachlorDegreeDesc': "Licence en informatiques",
-            'university': 'Université de Lille, FR',
-            'mission':'Mission',
-            'technologies':'Téchnologies',
-            'detail':'Détail',
-            'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
-            'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
-            'years':'ans'
-        },
-        'header': {
-            'home': 'Accueil',
-            'about': 'A propos',
-            'skills': 'Compétences',
-            'references': 'Recommandations',
-            'contactMe': 'Me Contacter',
-            
-        },
-        'home': {
-            'iAmDeveloper': 'Je suis développeur',
-        },
-        'projects': {
-            'title': 'Projets',
-            'projectDetail':'Détail projet',
-            'sourceCode':'Code source',
-        },
-        'references': {
-            'title': 'Recommandations',
-        },
-        'skills': {
-            'title': 'Compétences',
-            'technologies':'Téchnologies',
-            'tools':'Outils',
-            'methodologies':'Méthodologies'
-        },
+            'masterDegreeTwo': '学士号',
+            'masterDegreeTwoDesc': 'コンピューターサイエンスおよび工学',
+            'masterDegreeOne': '高等学校証明書',
+            'masterDegreeOneDesc': '科学 - 生物学',
+            'bachlorDegree': '中等学校証明書',
+            'bachlorDegreeDesc': '科学 - 生物学',
+            'university': 'ノースサウス大学、ダッカ、BD',
+            'college': 'ノートルダム・カレッジ',
+            'school': 'セント・ジョセフ・ハイ・セカンダリー・スクール＆カレッジ',
+            'mission':'タスク',
+            'technologies':'技術',
+            'detail':'詳細',
+            'tripsCountries':'ナルト、進撃の巨人、ブルーロック、ハイキュー',
+            'boardGamesPlayed':'Dota 2、Apex Legends',
+            'years':'年'
+            },
+            'header': {
+            'home': 'ホーム',
+            'about': '自己紹介',
+            'skills': 'スキル',
+            'references': '参照',
+            'contactMe': 'コンタクト'
+            },
+            'home': {
+            'iAmDeveloper': '私は開発者です'
+            },
+            'projects': {
+            'title': 'ポートフォリオ',
+            'projectDetail':'プロジェクトの詳細',
+            'sourceCode':'ソースコード'
+            },
+            'references': {
+            'title': '参照'
+            },
+            'skills': {
+            'title': 'スキル',
+            'technologies': '技術',
+            'tools': 'ツール',
+            'methodologies': '方法論'
+            }
+        }
     }
-}
+
+
+
