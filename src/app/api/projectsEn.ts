@@ -18,8 +18,8 @@ export const projectsEn = [
             },
         ],
         url: "https://www.vinternship.org/",
-        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> no more problems with choices or disagreements.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
+        detail:"<p>The online platform is designed to provide computer science fresh graduate interns with training from industry professionals. The program takes interns through the entire process of a particular course, and upon completion, they are evaluated and certified.</p> <p>Originally developed by eSRD-Lab, the project is now being run in collaboration with MySoft Limited and RISE BUET. The project was made possible by funding from the ICT Division Innovation fund.</p>",
+        codeSourceUrl:'https://github.com/eSRD-Lab/VIS-Platform',
         detailIsDisplayed: false,
     },
     {
@@ -42,8 +42,8 @@ export const projectsEn = [
             
         ],
         url:'http://103.94.135.217:4444/home',
-        detail:"<p>NCDW is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/NCDW_monitoring',
+        detail:"<p>This research project is a collaboration between academia and industry. The project involved extracting data from a data warehouse using Flask APIs. The data was then visualized on the front end using D3 and Chart js Graphs.</p> The project was funded by the ICT Division Innovation fund.",
+        codeSourceUrl:'https://github.com/eSRD-Lab/NCDW-Frontend',
         detailIsDisplayed: false,
     },
     {
@@ -52,37 +52,22 @@ export const projectsEn = [
         technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
-                title:'Pokedex',
-                src:   "assets/images/HMS.png",
+                title:'Home',
+                src:   "assets/images/HMS-home.png",
             },
             {
-                title:'Trainers',
-                src :"assets/images/trainers.png",
+                title:'Users',
+                src :"assets/images/hms-doctor.png",
             },
             {
-                title:"Profile",
-                src: "assets/images/profile-trainer.png",
-            },            
+                title:"Invoice",
+                src: "assets/images/hms-report.png",
+            },                
         ],
-        url:'#portfolio',
-        detail:"<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
-        codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
+        url:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
+        detail:"<p>This project is a demo hospital management system created for an academic internship project. The system includes CRUD (Create, Read, Update, Delete) implementation for doctors, patients, medicines, and other related entities.</p> <p>The goal of the project is to provide a practical demonstration of how such a system can be designed and implemented, including the use of databases and user interfaces.</p>",
+        codeSourceUrl:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
         detailIsDisplayed: false,
     },
-    // {
-    //     id:"portfolio",
-    //     name: "Book Worms",
-    //     technologies: 'Django, JavaScript, jQuery, MySQL',
-    //     images: [
-    //         {
-    //             title:'Portfolio',
-    //             src:   "assets/images/portfolio.png",
-    //         },
-    //     ],
-    //     url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-    //     detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
-    //     codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
-    //     detailIsDisplayed: false,
-    // },
 ];
 
