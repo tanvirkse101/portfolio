@@ -19,6 +19,10 @@ li.active{
   background: top center;
   background-size: cover;
   position: relative;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .links{
@@ -30,4 +34,16 @@ li.active{
   text-align: center;
 }
 
+.card-header {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+}
