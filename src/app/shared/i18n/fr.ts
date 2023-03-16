@@ -38,7 +38,7 @@ export const locale = {
             'languages': '言語',
             'fluent': 'N4〜N3',
             'goodLevel': '優れた',
-            'french': '日本語',
+            'japanese': '日本語',
             'english': '英語',
             'masterDegreeTwo': "Bachelor's Degree",
             'masterDegreeTwoDesc': "Computer Science & Engineering",
@@ -64,7 +64,7 @@ export const locale = {
             'contactMe': 'コンタクト'
             },
             'home': {
-            'iAmDeveloper': '私は開発者です'
+            'iAmDeveloper': 'I am'
             },
             'projects': {
             'title': 'ポートフォリオ',

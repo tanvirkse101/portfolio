@@ -38,7 +38,7 @@ export const locale = {
             'languages': 'Languages',
             'fluent': 'N4~N3',
             'goodLevel': 'Excellent',
-            'french': 'Japanese',
+            'japanese': 'Japanese',
             'english': 'English',
             'masterDegreeTwo': "Bachelor's Degree",
             'masterDegreeTwoDesc': "Computer Science & Engineering",

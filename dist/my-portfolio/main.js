@@ -30,7 +30,7 @@ const projectsEn = [
             },
         ],
         url: "https://www.vinternship.org/",
-        detail: "The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> no more problems with choices or disagreements.",
+        detail: "<p>The online platform is designed to provide computer science fresh graduate interns with training from industry professionals. The program takes interns through the entire process of a particular course, and upon completion, they are evaluated and certified.</p> <p>Originally developed by eSRD-Lab, the project is now being run in collaboration with MySoft Limited and RISE BUET. The project was made possible by funding from the ICT Division Innovation fund.</p>",
         codeSourceUrl: 'https://github.com/eSRD-Lab/VIS-Platform',
         detailIsDisplayed: false,
     },
@@ -53,7 +53,7 @@ const projectsEn = [
             }
         ],
         url: 'http://103.94.135.217:4444/home',
-        detail: "<p>NCDW is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
+        detail: "<p>This research project is a collaboration between academia and industry. The project involved extracting data from a data warehouse using Flask APIs. The data was then visualized on the front end using D3 and Chart js Graphs.</p> The project was funded by the ICT Division Innovation fund.",
         codeSourceUrl: 'https://github.com/eSRD-Lab/NCDW-Frontend',
         detailIsDisplayed: false,
     },
@@ -63,21 +63,21 @@ const projectsEn = [
         technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
-                title: 'Pokedex',
-                src: "assets/images/HMS.png",
+                title: 'Home',
+                src: "assets/images/HMS-home.png",
             },
             {
-                title: 'Trainers',
-                src: "assets/images/trainers.png",
+                title: 'Users',
+                src: "assets/images/hms-doctor.png",
             },
             {
-                title: "Profile",
-                src: "assets/images/profile-trainer.png",
+                title: "Invoice",
+                src: "assets/images/hms-report.png",
             },
         ],
-        url: '#portfolio',
-        detail: "<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
-        codeSourceUrl: 'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
+        url: 'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
+        detail: "<p>This project is a demo hospital management system created for an academic internship project. The system includes CRUD (Create, Read, Update, Delete) implementation for doctors, patients, medicines, and other related entities.</p> <p>The goal of the project is to provide a practical demonstration of how such a system can be designed and implemented, including the use of databases and user interfaces.</p>",
+        codeSourceUrl: 'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
         detailIsDisplayed: false,
     },
 ];
@@ -129,7 +129,7 @@ class AboutComponent {
     }
     ngOnInit() {
         this.mapMarker = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faMapMarker"];
-        this.building = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faCity"];
+        this.phone = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faPhone"];
         this.email = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faMailBulk"];
         this.mobile = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faMobile"];
         this.birthday = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faBirthdayCake"];
@@ -202,15 +202,15 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "fa-icon", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " Lens, France");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " tanvirkse@gmail.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "fa-icon", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " tanvirkse@gmail.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "fa-icon", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " +8801754101392");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -269,10 +269,10 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](45, 32, "about.mobility"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.building);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.email);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.phone);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.birthday);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" 27 ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](61, 34, "about.years"), "");
@@ -724,7 +724,7 @@ CurriculumVitaeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](63, 53, "education.languages"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](69, 55, "education.french"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](69, 55, "education.japanese"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](72, 57, "education.fluent"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
@@ -806,24 +806,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "referencesEn", function() { return referencesEn; });
 const referencesEn = [
     {
-        personImg: "assets/images/unknown.jpg",
-        personFullname: 'Velghe Walter',
-        personPosition: "IT Plant Manager",
-        personCompany: 'Agc glass europe',
-        message: "Zinedine is very effective in application development and in their maintenance, innovative and rational. Coding like lifestyle, his work features high quality products, following the standards and best practices. He has completed three projects on our site and I am so impressed with his techniques. He always has a thought criticism. He is always ready to take on challenges.",
-    },
-    {
         personImg: "assets/images/lotfi-benkhider.jpg",
-        personFullname: 'Benkhider Lotfi',
-        personPosition: "CEO & Founder",
-        personCompany: 'Scotfy',
+        personFullname: 'Dr. Abu Sayed Md. Latiful Haque',
+        personPosition: "Professor & CEO",
+        personCompany: 'eSRD-Lab',
         message: "Zinedine completed her internship in my company. He is independent and has a great learning ability. He meets delivery deadlines. He has team spirit. Zinedine does not hesitate to propose new relevant ideas. He respects the instructions, its code is clean.",
     },
     {
         personImg: "assets/images/mohamed-yahiatene.jpg",
-        personFullname: 'Yahiatene Mohamed',
-        personPosition: "DevOps Engineer",
-        personCompany: 'AG2R La Mondiale',
+        personFullname: 'Sazzad Hossain',
+        personPosition: "Professor",
+        personCompany: 'North South University',
         message: "I worked for two years with Zinedine at the University of Lille. Zinedine is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
     }
 ];
@@ -898,95 +891,46 @@ const experiencesEn = [
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "experiencesFr", function() { return experiencesFr; });
-// export const experiencesFr = [
-//     {
-//         title: "Dévloppeur en freelance",
-//         company: 'Scotfy, Lyon, Fr',
-//         period: "2020 - 2021 (2 mois)",
-//         technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
-//         missions: [
-//             "Mise en place d'un gestionnaire de thèmes (couleurs, logo).",
-//             "Mise en place d'un gestionnaire de dossiers virtuels qui peuvent contenir des apps Qlik Sense.",
-//             "Développement d'une interface de sauvegarde des ressources.",
-//             "Création de pages web personnalisables : Qlik Sense Mashups (En cours).",
-//         ],
-//         detailIsDisplayed: false,
-//     },
-//     {
-//         title: "Dévloppeur en freelance",
-//         company: 'AGC Glass Europe, Maubeuge, Fr',
-//         period: "2020 - 2021 (5 mois)",
-//         technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
-//         missions: [
-//             "Développement d'une application de notation de fournisseurs par les acheteurs.",
-//             "Maintenance évolutive et corrective d'applications.",
-//         ],
-//         detailIsDisplayed: false,
-//     },
-//     {
-//         title: "Dévloppeur en alternance",
-//         company: 'AGC Glass Europe, Maubeuge, Fr',
-//         period: "2019 - 2020 (1 an)",
-//         technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
-//         missions: [
-//             "Application de gestion des camions entrant sur le site",
-//             "Amélioration d'une application de création de plans de préventions.",
-//             "Application de mise en forme des commandes du verre, dans l’intérêt d'une meilleure lisibilité des priorités pour les équipes de production.",
-//             "Création de pages web personnalisables : Qlik Sense Mashups (En cours).",
-//         ],
-//         detailIsDisplayed: false,
-//     },
-//     {
-//         title: "Stagiaire Dévloppeur logiciel",
-//         company: 'Scotfy, Lyon, Fr',
-//         period: "2018 (3 mois)",
-//         technologies: 'C#, .NET, Chiffrement AES-256',
-//         missions: [
-//             "Multilingue: Mise en place d’un système de gestion de la langue afin de permettre à l’utilisateur de choisir la langue des interfaces, des messages et des logs.",
-//             "Clé de licence: Validation du logiciel à l’aide d’une clé de licence basée sur le nom d’utilisateur Windows.",
-//         ],
-//         detailIsDisplayed: false,
-//     },
-// ];
 const experiencesFr = [
     {
-        title: "ソフトウェアエンジニア",
-        company: '株式会社ZUU',
+        title: "Software Engineer",
+        company: 'ZUU Co. Ltd',
         period: "2022/12",
-        technologies: 'Golang、Vue.js、PostgreSQL',
+        technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
-            "フルスタック開発",
-            "Githubの問題点のバグ修正",
-            "日本の職場文化とワークフローを学ぶ",
-            "日本語の勉強",
+            [
+                "フルスタック開発をする",
+                "Githubの問題を修正する",
+                "日本の職場文化とワークフローを学ぶ",
+                "日本語を勉強する"
+            ]
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "プログラマー",
-        company: 'eSystems Research & Development Lab、BUET',
+        title: "Programmer",
+        company: 'eSystems Research & Development Lab, BUET',
         period: "2021/02-2022/04",
-        technologies: 'Python、Django、Flask、Angular 8',
+        technologies: 'Python, Django, Flask, Angular 8',
         missions: [
-            "VISプロジェクトのフルスタック開発",
-            "NCDWのフロントエンド開発",
-            "サーバーの展開",
-            "システム設計",
-            "調査と研究",
-            "インターンの指導",
+            "VISプロジェクトのフルスタック開発をする",
+            "NCDWのフロントエンド開発をする",
+            "サーバーのデプロイをする",
+            "システムデザインをする",
+            "調査・研究をする",
+            "インターンの指導をする"
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "フルスタックインターン",
-        company: 'eSystems Research & Development Lab、BUET',
+        title: "Full-stack Intern",
+        company: 'eSystems Research & Development Lab, BUET',
         period: "2020/09-2021/01",
-        technologies: 'Java、Spring-Boot、Angular、MongoDB',
+        technologies: 'Java, Spring-Boot, Angular, MongoDB',
         missions: [
-            "フルスタック開発",
-            "Spring-Boot、Angular、MongoDBを使用した病院管理システムの開発",
-            "PHP、CodeIgniter、MySQLを使用したeラーニングプラットフォームのモジュールの開発",
-            "日本語の勉強",
+            "フルスタック開発をする",
+            "Spring-Boot、Angular、およびMongoDBを使用して病院管理システムを開発する",
+            "PHP、CodeIgniter、およびMySQLを使用してe-Learningプラットフォームのモジュールを開発する",
         ],
         detailIsDisplayed: false,
     }
@@ -1045,7 +989,7 @@ const locale = {
             'languages': 'Languages',
             'fluent': 'N4~N3',
             'goodLevel': 'Excellent',
-            'french': 'Japanese',
+            'japanese': 'Japanese',
             'english': 'English',
             'masterDegreeTwo': "Bachelor's Degree",
             'masterDegreeTwoDesc': "Computer Science & Engineering",
@@ -1353,17 +1297,17 @@ const locale = {
             'languages': '言語',
             'fluent': 'N4〜N3',
             'goodLevel': '優れた',
-            'french': '日本語',
+            'japanese': '日本語',
             'english': '英語',
-            'masterDegreeTwo': '学士号',
-            'masterDegreeTwoDesc': 'コンピューターサイエンスおよび工学',
-            'masterDegreeOne': '高等学校証明書',
-            'masterDegreeOneDesc': '科学 - 生物学',
-            'bachlorDegree': '中等学校証明書',
-            'bachlorDegreeDesc': '科学 - 生物学',
-            'university': 'ノースサウス大学、ダッカ、BD',
-            'college': 'ノートルダム・カレッジ',
-            'school': 'セント・ジョセフ・ハイ・セカンダリー・スクール＆カレッジ',
+            'masterDegreeTwo': "Bachelor's Degree",
+            'masterDegreeTwoDesc': "Computer Science & Engineering",
+            'masterDegreeOne': "Higher Secondary Certificate",
+            'masterDegreeOneDesc': "Science - Biology",
+            'bachlorDegree': "Secondary School Certificate",
+            'bachlorDegreeDesc': "Science - Biology",
+            'university': 'North South University, Dhaka, BD',
+            'college': "Notre Dame College",
+            'school': "St. Joseph Higer Secondary School & College",
             'mission': 'タスク',
             'technologies': '技術',
             'detail': '詳細',
@@ -1379,7 +1323,7 @@ const locale = {
             'contactMe': 'コンタクト'
         },
         'home': {
-            'iAmDeveloper': '私は開発者です'
+            'iAmDeveloper': 'I am'
         },
         'projects': {
             'title': 'ポートフォリオ',
@@ -1551,25 +1495,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "referencesFr", function() { return referencesFr; });
 const referencesFr = [
     {
-        personImg: "assets/images/unknown.jpg",
-        personFullname: 'Velghe Walter',
-        personPosition: "IT Plant Manager",
-        personCompany: 'Agc glass europe',
-        message: "Zinedine est très efficace dans le développement d'applications et dans leur maintenance, innovante et rationnelle. Coder comme style de vie, son travail propose des produits de haute qualité, suivant les normes et les meilleures pratiques. Il a réalisé trois projets sur notre site et je suis tellement impressionné par ses techniques. Il a toujours une pensée critique. Il est toujours prêt à relever des défis.",
-    },
-    {
         personImg: "assets/images/lotfi-benkhider.jpg",
-        personFullname: 'Benkhider Lotfi',
-        personPosition: "CEO & Founder",
-        personCompany: 'Scotfy',
-        message: "Zinedine a effectué son stage dans mon entreprise. Il est indépendant et a une grande capacité d'apprentissage. Il respecte les délais de livraison. Il a l'esprit d'équipe. Zinedine n'hésite pas à proposer de nouvelles idées pertinentes. Il respecte les consignes, son code est propre.",
+        personFullname: 'Dr. Abu Sayed Md. Latiful Haque',
+        personPosition: "Professor & CEO",
+        personCompany: 'eSRD-Lab',
+        message: "Zinedine completed her internship in my company. He is independent and has a great learning ability. He meets delivery deadlines. He has team spirit. Zinedine does not hesitate to propose new relevant ideas. He respects the instructions, its code is clean.",
     },
     {
         personImg: "assets/images/mohamed-yahiatene.jpg",
-        personFullname: 'Yahiatene Mohamed',
-        personPosition: "DevOps Engineer",
-        personCompany: 'AG2R La Mondiale',
-        message: "J'ai travaillé pendant deux ans avec Zinedine à l'Université de Lille. Zinedine est un très bon partenaire de travail avec une grande connaissance du développement backend et frontend, il est toujours désireux d'aller de l'avant sans jamais avoir peur d'utiliser de nouvelles technologies. Il n'hésite pas à aider ses collègues chaque fois qu'il le peut. Il parvient à résoudre les problèmes rapidement et efficacement avec un optimisme typique.",
+        personFullname: 'Sazzad Hossain',
+        personPosition: "Professor",
+        personCompany: 'North South University',
+        message: "I worked for two years with Zinedine at the University of Lille. Zinedine is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
     }
 ];
 
@@ -1764,7 +1701,7 @@ class HeaderComponent {
             this.language = localStorage.getItem("lang");
         }
         else {
-            this.language = 'fr';
+            this.language = 'en';
         }
     }
     languageChange($event) {
@@ -2079,105 +2016,71 @@ __webpack_require__.r(__webpack_exports__);
 const projectsFr = [
     {
         id: "VIS",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        name: "Virtual Internship System",
+        technologies: 'Python, Django, Angular.js, MongoDB',
         images: [
             {
-                title: '',
-                src: "assets/images/voyages.webp",
+                title: 'ホーム',
+                src: "assets/images/vis-home.png",
             },
             {
-                title: '',
-                src: "assets/images/voyage.webp",
+                title: 'ユーザー',
+                src: "assets/images/vis-user.png",
             },
             {
-                title: '',
-                src: "assets/images/logements.webp",
+                title: '管理者',
+                src: "assets/images/vis-admin.png",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.VIS",
-        detail: "L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.VIS'>application</a> plus de problème de choix ou désaccords.",
+        url: "https://www.vinternship.org/",
+        detail: "<p>このオンラインプラットフォームは、コンピューターサイエンスの新卒インターンに、業界のプロフェッショナルからのトレーニングを提供するために設計されています。このプログラムでは、インターンが特定のコースの全プロセスを経験し、完了後に評価と認定を受けます。</p><p>このプロジェクトは元々eSRD-Labによって開発され、現在はMySoft LimitedとRISE BUETとの共同で実行されています。ICT Division Innovation Fundの資金提供によって可能になりました。</p>",
         codeSourceUrl: 'https://github.com/eSRD-Lab/VIS-Platform',
         detailIsDisplayed: false,
     },
     {
         id: "NCDW",
-        name: "NCDW Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        name: "National Health Data Warehouse",
+        technologies: 'Python, Flask, Angular 8, PostgreSQL',
         images: [
             {
-                title: 'Compagnes de marketing',
-                src: "assets/images/compagnes.jpg",
+                title: 'ホーム',
+                src: "assets/images/ncdw-home.png",
             },
             {
-                title: 'Détail de la compagne',
-                src: "assets/images/compagne-detail.jpg",
+                title: '地図',
+                src: "assets/images/ncdw-map.png",
             },
             {
-                title: "Performance d'un émail",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title: "Performance d'un Asset",
-                src: "assets/images/asset-detail.jpg"
-            },
+                title: "管理者",
+                src: "assets/images/ncdw-lab.png",
+            }
         ],
-        url: '#portfolio',
-        detail: "<p>NCDW est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
+        url: 'http://103.94.135.217:4444/home',
+        detail: "<p>この研究プロジェクトは、学術界と産業界の共同作業です。このプロジェクトでは、Flask APIを使用してデータウェアハウスからデータを抽出しました。そのデータをD3とChart jsグラフを使用してフロントエンドで視覚化しました。</p><p>このプロジェクトは、ICT Division Innovation Fundの資金提供によって実現しました。</p>",
         codeSourceUrl: 'https://github.com/eSRD-Lab/NCDW-Frontend',
         detailIsDisplayed: false,
     },
     {
         id: "HMS",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        name: "Hospital Management System",
+        technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
-                title: 'Pokedex',
-                src: "assets/images/HMS.png",
+                title: 'ホーム',
+                src: "assets/images/HMS-home.png",
             },
             {
-                title: 'Trainers',
-                src: "assets/images/trainers.png",
+                title: 'ユーザー',
+                src: "assets/images/hms-doctor.png",
             },
             {
-                title: "Profile",
-                src: "assets/images/profile-trainer.png",
+                title: "請求書",
+                src: "assets/images/hms-report.png",
             },
         ],
-        url: '#portfolio',
-        detail: "<p>Affichage du détail des pokémons et de leurs drésseurs.</p> <p>L'application contient deux micro-service: pokemon management et trainer management, qui exposent un canal de communication REST/JSON.<br>Le 3éme micro-service WEB-UI se connecte aux deux micro-service.</p>",
-        codeSourceUrl: 'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
-        detailIsDisplayed: false,
-    },
-    {
-        id: "portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
-        images: [
-            {
-                title: 'Portfolio',
-                src: "assets/images/portfolio.png",
-            },
-        ],
-        url: 'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail: "<p>CV sous forme de site WEB responsive que j'ai mis en open-source sur GitHub accompagné d'une publication d'un <a title='Voir l'article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> sur medium. </p>",
-        codeSourceUrl: 'https://github.com/zinedineBenkhider/portfolio',
-        detailIsDisplayed: false,
-    },
-    {
-        id: "riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
-        images: [
-            {
-                title: 'riddle',
-                src: "assets/images/riddle.png",
-            },
-        ],
-        url: 'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail: "Affichage des étapes de la résolution d'énigme de transvasement. Étant donné deux réservoirs vides de contenance X et Y, comment obtenir précisément T litres dans l’un des deux réservoirs (T étant un entier). On peut remplir ou vider un réservoir, et transvaser le contenu de l’un dans l’autre, jusqu’à ce que la source soit vide ou la destination pleine.",
-        codeSourceUrl: 'https://github.com/zinedineBenkhider/transfer_riddle_client',
+        url: 'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
+        detail: "このプロジェクトは、学術インターンシッププロジェクトのために作成された病院管理システムのデモ版です。このシステムには、医師、患者、薬剤、および関連するその他のエンティティのCRUD（作成、読み取り、更新、削除）実装が含まれています。このプロジェクトの目的は、データベースとユーザーインターフェースの使用を含め、このようなシステムがどのように設計・実装されるかを実用的にデモンストレーションすることです。",
+        codeSourceUrl: 'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
         detailIsDisplayed: false,
     },
 ];
