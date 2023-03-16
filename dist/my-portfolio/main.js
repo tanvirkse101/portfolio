@@ -806,19 +806,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "referencesEn", function() { return referencesEn; });
 const referencesEn = [
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Dr. Abu Sayed Md. Latiful Haque',
         personPosition: "Professor & CEO",
-        personCompany: 'eSRD-Lab',
+        personCompany: 'eSRD-Lab, BUET',
         message: "I had the pleasure of working with Tanvir Ahamed for 1 year and 5 months, and I must say that he was one of the best team members we had during that time. Tanvir consistently demonstrated a strong work ethic, delivering tasks on time and to a high standard. He was always willing to take on new challenges, and his problem-solving ability was exceptional. What really stood out about Tanvir was his communication skills. He was able to effectively communicate with team members and clients alike, and was always willing to go the extra mile to ensure that everyone was on the same page. Tanvir's ability to adapt to changing project requirements and deadlines was also a great asset to our team. I highly recommend Tanvir and am confident that he will continue to excel in his future endeavors."
     },
     {
-        personImg: "assets/images/mohamed-yahiatene.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Sazzad Hossain',
         personPosition: "Professor",
         personCompany: 'North South University',
         message: "I have had the pleasure of teaching Tanvir Ahamed for multiple courses, including Artificial Intelligence, Machine Learning, and Senior Projects. Tanvir is an excellent student who has consistently demonstrated a strong work ethic and a keen desire to learn. He has a natural aptitude for programming and has consistently delivered high-quality work, both individually and as a member of a team. Tanvir's ability to grasp complex concepts and apply them to real-world problems is truly impressive. He has shown a particular talent for developing innovative solutions that are both practical and effective. His strong analytical skills, attention to detail, and ability to work independently make him an asset to any team. I am confident that Tanvir will continue to excel in his future endeavors, and I highly recommend him to any potential employer."
-    }
+    },
+    {
+        personImg: "assets/images/unknown.jpg",
+        personFullname: 'Sazzad Hossain',
+        personPosition: "Professor",
+        personCompany: 'North South University',
+        message: "I have had the pleasure of teaching Tanvir Ahamed for multiple courses, including Artificial Intelligence, Machine Learning, and Senior Projects. Tanvir is an excellent student who has consistently demonstrated a strong work ethic and a keen desire to learn. He has a natural aptitude for programming and has consistently delivered high-quality work, both individually and as a member of a team. Tanvir's ability to grasp complex concepts and apply them to real-world problems is truly impressive. He has shown a particular talent for developing innovative solutions that are both practical and effective. His strong analytical skills, attention to detail, and ability to work independently make him an asset to any team. I am confident that Tanvir will continue to excel in his future endeavors, and I highly recommend him to any potential employer."
+    },
 ];
 
 
@@ -838,7 +845,7 @@ const experiencesEn = [
     {
         title: "Software Engineer",
         company: 'ZUU Co. Ltd',
-        period: "2022/12",
+        period: "2022/12-2023/02",
         technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
             "Full-stack Development",
@@ -895,7 +902,7 @@ const experiencesFr = [
     {
         title: "Software Engineer",
         company: 'ZUU Co. Ltd',
-        period: "2022/12",
+        period: "2022/12-2023/02",
         technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
             [
@@ -955,13 +962,13 @@ const locale = {
         'about': {
             'title': 'About',
             'jobTitle': 'Full-stack Software Engineer',
-            'introductionOfMe': 'Interested in new technologies, full-stack development & DevOps. I like to research, theorize, and implement new features in my projects using PDCA',
+            'introductionOfMe': 'As an avid learner of new technologies, I enjoy exploring and implementing full-stack development and DevOps practices. My passion for research and development allows me to experiment with the latest features and continuously improve my projects using the PDCA cycle. Whether it\'s working on Front-End, Back-End, or Server-Side, I strive to maintain a keen interest in all aspects of software development',
             'passionateAboutDevelopment': 'Passionate about development: ',
             'mobility': 'Dhaka, Bangladesh',
             'years': 'Years',
             'graduation': "B.Sc. in C.S.E",
             'myResearch': 'CSE Major: ML & AI',
-            'researchDescription': 'I am looking for a company where I can put my programming skills to the challenge, participate in team work & learn from my seniors & colleagues, contribute to international large scale projects, and grow as a Software Engineer.',
+            'researchDescription': 'I am seeking a dynamic company where I can apply and expand my programming skills, collaborate with a team of experienced professionals, and contribute to large-scale international projects. Working alongside seasoned mentors and colleagues, I aim to learn from their expertise and enhance my knowledge as a software engineer. Ultimately, I am driven to grow as a professional and contribute to the success of the company\'s mission.',
             'and': 'and',
             'followMeOn': 'Follow me on',
         },
@@ -1069,8 +1076,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class AppComponent {
-    constructor(_translateService) {
+    constructor(_translateService, elementRef) {
         this._translateService = _translateService;
+        this.elementRef = elementRef;
         this._translateService.addLangs(['en', 'fr']);
         this._translateService.setDefaultLang('fr');
         this.currentYear = new Date().getFullYear();
@@ -1082,9 +1090,15 @@ class AppComponent {
         let lang = localStorage.getItem("lang");
         this._translateService.setDefaultLang(lang);
         this._translateService.use(lang);
+        setTimeout(() => {
+            const section = this.elementRef.nativeElement.querySelector('#about');
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+            }
+        }, 3500);
     }
 }
-AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_1__["TranslateService"])); };
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_1__["TranslateService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 15, vars: 1, consts: [[1, "page-content"], [1, "footer"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-header");
@@ -1116,7 +1130,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
                 templateUrl: './app.component.html',
                 styleUrls: ['./app.component.css']
             }]
-    }], function () { return [{ type: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_1__["TranslateService"] }]; }, null); })();
+    }], function () { return [{ type: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_1__["TranslateService"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }]; }, null); })();
 
 
 /***/ }),
@@ -1263,13 +1277,13 @@ const locale = {
         'about': {
             'title': '自己紹介',
             'jobTitle': 'フルスタックソフトウェアエンジニア',
-            'introductionOfMe': '新しいテクノロジー、フルスタック開発、DevOpsに興味があります。私はPDCAを使用して私のプロジェクトに新しい機能を研究し、理論を構築し、実装することが好きです。',
+            'introductionOfMe': '新しい技術を熱心に学ぶことが好きで、フルスタック開発とDevOpsの実践を探求し、実装することを楽しんでいます。研究開発に対する情熱が私を最新の機能を実験し、PDCAサイクルを用いてプロジェクトを継続的に改善することを可能にしています。フロントエンド、バックエンド、サーバーサイドに取り組む場合でも、ソフトウェア開発のあらゆる側面に関心を持ち続けるよう努めています。',
             'passionateAboutDevelopment': '開発に情熱を注いでいます：',
             'mobility': 'バングラデシュ、ダッカ',
             'years': '年',
-            'graduation': "コンピューターサイエンス＆エンジニアリングの学士",
+            'graduation': "B.Sc. in CSE",
             'myResearch': 'CSEメジャー：ML＆AI',
-            'researchDescription': 'プログラミングスキルを活用し、チームワークに参加し、先輩や同僚から学び、国際的な大規模なプロジェクトに貢献し、ソフトウェアエンジニアとして成長できる企業を探しています。',
+            'researchDescription': '私は、プログラミングスキルを活かし、拡張できるダイナミックな会社を探しています。経験豊富な専門家のチームと協力し、大規模な国際プロジェクトに貢献したいと考えています。ベテランのメンターと同僚と一緒に働くことで、彼らの専門知識を学び、ソフトウェアエンジニアとしての知識を高めることを目指しています。最終的には、プロフェッショナルとして成長し、会社のミッションの成功に貢献したいと考えています。',
             'and': 'と',
             'followMeOn': 'フォローしてください',
         },
@@ -1495,14 +1509,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "referencesFr", function() { return referencesFr; });
 const referencesFr = [
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Dr. Abu Sayed Md. Latiful Haque',
         personPosition: "Professor & CEO",
-        personCompany: 'eSRD-Lab',
+        personCompany: 'eSRD-Lab, BUET',
         message: "私はTanvir Ahamedさんと1年5ヶ月一緒に働いた経験があります。彼は当社の最高のチームメンバーの一人であり、常に高品質かつタイムリーなタスクの提供を実現してくれました。新しいチャレンジにも常に積極的に取り組み、問題解決能力にも優れています。Tanvirさんのコミュニケーション能力は非常に高く、チームメンバーやクライアントと効果的にコミュニケーションを取り、全員が同じページにいるように常に努力していました。彼のプロジェクトの要件や納期に対する適応能力も素晴らしい資質です。私はTanvirさんの今後の成功を確信しており、彼を強くお勧めします。",
     },
     {
-        personImg: "assets/images/mohamed-yahiatene.jpg",
+        personImg: "assets/images/unknown.jpg",
+        personFullname: 'Dr. Sazzad Hossain',
+        personPosition: "Professor",
+        personCompany: 'North South University',
+        message: "私はTanvir Ahamedさんに複数のコース、人工知能、機械学習、そしてシニアプロジェクトの受講の機会をいただきました。Tanvirさんは優秀な学生で、強い努力と学ぶ意欲を常に示してきました。プログラミングに対する天賦の才能があり、個人でもチームでも高品質な仕事を常に提供しています。Tanvirさんは複雑なコンセプトを理解し、現実の問題に適用する能力があり、本当に素晴らしいです。実用的で効果的な革新的な解決策を開発する才能を持っています。彼の強い分析能力、細部への注意、独立した作業能力は、どんなチームにも貢献することができます。私はTanvirさんが今後も成功し続けることを確信しており、潜在的な雇用者に強くお勧めします。"
+    },
+    {
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Dr. Sazzad Hossain',
         personPosition: "Professor",
         personCompany: 'North South University',
@@ -1919,8 +1940,8 @@ class SkillsComponent {
         this._translationLoaderService = _translationLoaderService;
         this.skills = {
             technologies: [{ name: "Python, Django, Flask", percent: 95, remark: 'excellent' }, { name: "Java, Spring-Boot", percent: 75, remark: 'good' }, { name: "PHP, CodeIgniter", percent: 75, remark: 'good' }, { name: "JavaScript,TypeScript, Angular 8+", percent: 75, remark: 'good' }, { name: "Golang, Gin", percent: 50, remark: 'average' }],
-            tools: [{ name: "Git", percent: 90, remark: 'excellent' }, { name: "Jupyter Notebook, Selenium, Scrappy", percent: 50, remark: 'average' }, { name: "Linux, Windows", percent: 90, remark: 'very-good' }, { name: "MySQL, PostgreSQL, MongoDB", percent: 90, remark: 'excellent' }, { name: "Docker, Jenkins", percent: 75, remark: 'good' }],
-            methodologies: [{ name: "Scrum, Agile", percent: 75, remark: 'very-good' }, { name: "SDS, SRS, Documentation", percent: 75, remark: 'very-good' }, { name: "PDCA", percent: 75, remark: 'very-good' }, { name: "TDD, Testing", percent: 60, remark: 'average' }, { name: "DevOps", percent: 75, remark: 'very-good' }]
+            tools: [{ name: "Git", percent: 90, remark: 'excellent' }, { name: "Linux, Windows", percent: 90, remark: 'very-good' }, { name: "MySQL, PostgreSQL, MongoDB", percent: 90, remark: 'excellent' }, { name: "Docker, Jenkins", percent: 75, remark: 'good' }, { name: "Jupyter Notebook, Selenium, Scrappy", percent: 50, remark: 'average' }],
+            methodologies: [{ name: "Scrum, Agile", percent: 75, remark: 'very-good' }, { name: "SDS, SRS, Documentation", percent: 75, remark: 'very-good' }, { name: "PDCA", percent: 75, remark: 'very-good' }, { name: "DevOps", percent: 75, remark: 'very-good' }, { name: "TDD, Testing", percent: 60, remark: 'average' }]
         };
         this._translationLoaderService.loadTranslations(_shared_i18n_en__WEBPACK_IMPORTED_MODULE_1__["locale"], _shared_i18n_fr__WEBPACK_IMPORTED_MODULE_2__["locale"]);
     }

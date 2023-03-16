@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,7 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent implements OnInit {
   currentYear:number;
-  constructor(private _translateService: TranslateService) {
+  constructor(
+    private _translateService: TranslateService,
+    private elementRef: ElementRef
+    ) {
     this._translateService.addLangs(['en', 'fr']);
     this._translateService.setDefaultLang('fr');
     this.currentYear=new Date().getFullYear();
@@ -21,6 +24,12 @@ export class AppComponent implements OnInit {
     let lang:any=localStorage.getItem("lang"); 
     this._translateService.setDefaultLang(lang);
     this._translateService.use(lang);
+    setTimeout(() => {
+      const section = this.elementRef.nativeElement.querySelector('#about');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+      }
+    }, 3500);
   }
 
 }

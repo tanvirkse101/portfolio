@@ -2,7 +2,7 @@ export const experiencesFr = [
     {
         title: "Software Engineer",
         company: 'ZUU Co. Ltd',
-        period: "2022/12",
+        period: "2022/12-2023/02",
         technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
             [
