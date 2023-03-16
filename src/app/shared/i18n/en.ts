@@ -67,7 +67,7 @@ export const locale = {
             'iAmDeveloper': 'I am ',
         },
         'projects': {
-            'title': 'Portfolio',
+            'title': 'Projects',
             'projectDetail':'Project detail',
             'sourceCode':'Source code',
         },
