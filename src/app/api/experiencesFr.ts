@@ -5,12 +5,10 @@ export const experiencesFr = [
         period: "2022/12-2023/02",
         technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
-            [
             "フルスタック開発をする",
             "Githubの問題を修正する",
             "日本の職場文化とワークフローを学ぶ",
             "日本語を勉強する"
-            ]
         ],
         detailIsDisplayed: false,
     },

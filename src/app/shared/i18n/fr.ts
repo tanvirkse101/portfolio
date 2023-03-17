@@ -68,8 +68,8 @@ export const locale = {
             },
             'projects': {
             'title': 'プロジェクト',
-            'projectDetail':'プロジェクトの詳細',
-            'sourceCode':'ソースコード'
+            'projectDetail':'詳細',
+            'sourceCode':'コード'
             },
             'references': {
             'title': '参照'
