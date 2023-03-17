@@ -27,3 +27,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-radio-outer-circle{
     border-color: white!important;
 }
+
+.card {
+    border-radius: 10%;
+  }

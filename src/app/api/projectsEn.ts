@@ -69,5 +69,73 @@ export const projectsEn = [
         codeSourceUrl:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
         detailIsDisplayed: false,
     },
+    {
+        "id": "Bookworms",
+        "name": "Bookworms",
+        "technologies": "Python, Django, JavaScript, MySQL",
+        "images": [
+          {
+            "title": "Homepage",
+            "src": "assets/images/bookworms-home.png"
+          },
+          {
+            "title": "Book Detail",
+            "src": "assets/images/bookworms-book-detail.png"
+          },
+          {
+            "title": "User Profile",
+            "src": "assets/images/bookworms-user-profile.png"
+          }
+        ],
+        "url": "https://www.bookworms.com",
+        "detail": "<p>The Bookworms project involves creating a dynamic website and Android app for users to share, exchange, rent, and sell both new and used books. Machine learning algorithms were used to suggest books based on user behavior and interests.</p>",
+        "codeSourceUrl": null,
+        "detailIsDisplayed": false
+      },
+      {
+        "id": "eLearning",
+        "name": "e-Learning Demo",
+        "technologies": "CodeIgniter, JavaScript, jQuery, MySQL",
+        "images": [
+          {
+            "title": "Homepage",
+            "src": "assets/images/elearning-home.png"
+          },
+          {
+            "title": "Course Detail",
+            "src": "assets/images/elearning-course-detail.png"
+          },
+          {
+            "title": "User Profile",
+            "src": "assets/images/elearning-user-profile.png"
+          }
+        ],
+        "url": "https://www.elearning.com",
+        "detail": "<p>The e-Learning Web Platform is a demo education platform created for an academic internship project. The registration, user tracking and attendance modules were implemented.</p>",
+        "codeSourceUrl": null,
+        "detailIsDisplayed": false
+      },
+      {
+        "id": "Workshop",
+        "name": "Workshop",
+        "technologies": "Django, JavaScript, jQuery, MongoDB",
+        "images": [
+          {
+            "title": "Homepage",
+            "src": "assets/images/workshop-home.png"
+          },
+          {
+            "title": "Workshop Detail",
+            "src": "assets/images/workshop-workshop-detail.png"
+          },
+          {
+            "title": "Registration",
+            "src": "assets/images/workshop-registration.png"
+          }
+        ],
+        "url": "https://www.workshop.com",
+        "detail": "<p>The Workshop website is a dynamic platform for hosting multiple eSRD-Lab Programs & activities workshops simultaneously. Organizers can manage workshop details, schedules, activities, and registration from the admin panel. The site provides a user-friendly interface for visitors to browse and register for workshops, making it an indispensable tool for anyone interested in these events.</p>",
+        "codeSourceUrl": null,
+        "detailIsDisplayed": false
+      }
 ];
-
