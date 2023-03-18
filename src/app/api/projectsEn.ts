@@ -47,27 +47,27 @@ export const projectsEn = [
         detailIsDisplayed: false,
     },
     {
-        id:"HMS",
-        name: "Hospital Management System",
-        technologies: 'Java, SpringBoot, Angular 8, MongoDB',
-        images: [
-            {
-                title:'Home',
-                src:   "assets/images/HMS-home.png",
-            },
-            {
-                title:'Users',
-                src :"assets/images/hms-doctor.png",
-            },
-            {
-                title:"Invoice",
-                src: "assets/images/hms-report.png",
-            },                
-        ],
-        url:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
-        detail:"<p>This project is a demo hospital management system created for an academic internship project. The system includes CRUD (Create, Read, Update, Delete) implementation for doctors, patients, medicines, and other related entities.</p> <p>The goal of the project is to provide a practical demonstration of how such a system can be designed and implemented, including the use of databases and user interfaces.</p>",
-        codeSourceUrl:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
-        detailIsDisplayed: false,
+      "id": "Workshop",
+      "name": "Dynamic Workshop Platform",
+      "technologies": "Django, JavaScript, MongoDB",
+      "images": [
+        {
+          "title": "Homepage",
+          "src": "assets/images/workshop-home.png"
+        },
+        {
+          "title": "Workshop Detail",
+          "src": "assets/images/workshop-workshop-detail.png"
+        },
+        {
+          "title": "Registration",
+          "src": "assets/images/workshop-registration.png"
+        }
+      ],
+      "url": "https://www.workshop.com",
+      "detail": "<p>The Workshop website is a dynamic platform for hosting multiple eSRD-Lab Programs & activities workshops simultaneously. Organizers can manage workshop details, schedules, activities, and registration from the admin panel. The site provides a user-friendly interface for visitors to browse and register for workshops, making it an indispensable tool for anyone interested in these events.</p>",
+      "codeSourceUrl": null,
+      "detailIsDisplayed": false
     },
     {
         "id": "Bookworms",
@@ -93,6 +93,29 @@ export const projectsEn = [
         "detailIsDisplayed": false
       },
       {
+        id:"HMS",
+        name: "Hospital Management System",
+        technologies: 'Java, SpringBoot, Angular 8, MongoDB',
+        images: [
+            {
+                title:'Home',
+                src:   "assets/images/HMS-home.png",
+            },
+            {
+                title:'Users',
+                src :"assets/images/hms-doctor.png",
+            },
+            {
+                title:"Invoice",
+                src: "assets/images/hms-report.png",
+            },                
+        ],
+        url:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
+        detail:"<p>This project is a demo hospital management system created for an academic internship project. The system includes CRUD (Create, Read, Update, Delete) implementation for doctors, patients, medicines, and other related entities.</p> <p>The goal of the project is to provide a practical demonstration of how such a system can be designed and implemented, including the use of databases and user interfaces.</p>",
+        codeSourceUrl:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
+        detailIsDisplayed: false,
+    },
+      {
         "id": "eLearning",
         "name": "e-Learning Demo",
         "technologies": "CodeIgniter, JavaScript, jQuery, MySQL",
@@ -115,27 +138,4 @@ export const projectsEn = [
         "codeSourceUrl": null,
         "detailIsDisplayed": false
       },
-      {
-        "id": "Workshop",
-        "name": "Workshop",
-        "technologies": "Django, JavaScript, jQuery, MongoDB",
-        "images": [
-          {
-            "title": "Homepage",
-            "src": "assets/images/workshop-home.png"
-          },
-          {
-            "title": "Workshop Detail",
-            "src": "assets/images/workshop-workshop-detail.png"
-          },
-          {
-            "title": "Registration",
-            "src": "assets/images/workshop-registration.png"
-          }
-        ],
-        "url": "https://www.workshop.com",
-        "detail": "<p>The Workshop website is a dynamic platform for hosting multiple eSRD-Lab Programs & activities workshops simultaneously. Organizers can manage workshop details, schedules, activities, and registration from the admin panel. The site provides a user-friendly interface for visitors to browse and register for workshops, making it an indispensable tool for anyone interested in these events.</p>",
-        "codeSourceUrl": null,
-        "detailIsDisplayed": false
-      }
 ];

@@ -21,7 +21,7 @@ export const locale = {
             'enterIdentify': 'Enter your identify',
             'email': 'Email',
             'enterEmail': 'Enter your email',
-            'object': 'Object',
+            'object': 'Subject',
             'enterObject': 'Enter object',
             'message': 'Message',
             'send': 'Send',

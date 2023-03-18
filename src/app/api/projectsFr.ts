@@ -46,8 +46,54 @@ export const projectsFr = [
         detailIsDisplayed: false,
     },
     {
+        "id": "Workshop",
+        "name": "Dynamic Workshop Platform",
+        "technologies": "Django、JavaScript、MongoDB",
+        "images": [
+          {
+            "title": "ホームページ",
+            "src": "assets/images/workshop-home.png"
+          },
+          {
+            "title": "ワークショップの詳細",
+            "src": "assets/images/workshop-workshop-detail.png"
+          },
+          {
+            "title": "登録",
+            "src": "assets/images/workshop-registration.png"
+          }
+        ],
+        "url": "https://www.workshop.com",
+        "detail": "<p>ワークショップのウェブサイトは、複数のeSRD-Labプログラムと活動のワークショップを同時に開催するための動的プラットフォームです。オーガナイザーは、管理パネルからワークショップの詳細、スケジュール、アクティビティ、および登録を管理できます。サイトは、ワークショップを閲覧して登録するためのユーザーフレンドリーなインターフェースを提供し、これらのイベントに関心がある人にとって欠かせないツールです。</p>",
+        "codeSourceUrl": null,
+        "detailIsDisplayed": false
+      },
+    {
+        "id": "Bookworms",
+        "name": "Bookworms",
+        "technologies": "Python, Django, JavaScript, MySQL",
+        "images": [
+          {
+            "title": "ホームページ",
+            "src": "assets/images/bookworms-home.png"
+          },
+          {
+            "title": "書籍詳細",
+            "src": "assets/images/bookworms-book-detail.png"
+          },
+          {
+            "title": "ユーザープロフィール",
+            "src": "assets/images/bookworms-user-profile.png"
+          }
+        ],
+        "url": "https://www.bookworms.com",
+        "detail": "<p>Bookwormsプロジェクトは、新しい本や中古本を共有、交換、貸し出し、販売するためのダイナミックなウェブサイトとAndroidアプリの作成を含みます。ユーザーの行動や興味に基づいて書籍を提案するために、機械学習アルゴリズムが使用されました。</p>",
+        "codeSourceUrl": null,
+        "detailIsDisplayed": false
+      },
+      {
         id: "HMS",
-        name: "Hospital Management System",
+        name: "H.M.S",
         technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
@@ -68,5 +114,28 @@ export const projectsFr = [
         codeSourceUrl:'https://github.com/tanvirkse101/Spring-Boot-Anuglar-Project',
         detailIsDisplayed: false,
     },
+      {
+        "id": "eLearning",
+        "name": "e-Learning Demo",
+        "technologies": "CodeIgniter, JavaScript, jQuery, MySQL",
+        "images": [
+          {
+            "title": "ホームページ",
+            "src": "assets/images/elearning-home.png"
+          },
+          {
+            "title": "コース詳細",
+            "src": "assets/images/elearning-course-detail.png"
+          },
+          {
+            "title": "ユーザープロフィール",
+            "src": "assets/images/elearning-user-profile.png"
+          }
+        ],
+        "url": "https://www.elearning.com",
+        "detail": "<p>e-Learning Webプラットフォームは、学術インターンシッププロジェクトのために作成されたデモ教育プラットフォームです。登録、ユーザートラッキング、出席モジュールが実装されました。</p>",
+        "codeSourceUrl": null,
+        "detailIsDisplayed": false
+      },
 ];
 
