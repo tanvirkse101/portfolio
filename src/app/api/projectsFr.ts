@@ -56,16 +56,16 @@ export const projectsFr = [
           },
           {
             "title": "ワークショップの詳細",
-            "src": "assets/images/workshop-workshop-detail.png"
+            "src": "assets/images/workshop-detail.png"
           },
           {
             "title": "登録",
             "src": "assets/images/workshop-registration.png"
           }
         ],
-        "url": "https://www.workshop.com",
+        "url": "http://103.94.135.217:8888/2/HSC-ICT-Workshop/",
         "detail": "<p>ワークショップのウェブサイトは、複数のeSRD-Labプログラムと活動のワークショップを同時に開催するための動的プラットフォームです。オーガナイザーは、管理パネルからワークショップの詳細、スケジュール、アクティビティ、および登録を管理できます。サイトは、ワークショップを閲覧して登録するためのユーザーフレンドリーなインターフェースを提供し、これらのイベントに関心がある人にとって欠かせないツールです。</p>",
-        "codeSourceUrl": null,
+        "codeSourceUrl": "https://github.com/eSRD-Lab/workshop",
         "detailIsDisplayed": false
       },
     {
@@ -79,16 +79,17 @@ export const projectsFr = [
           },
           {
             "title": "書籍詳細",
-            "src": "assets/images/bookworms-book-detail.png"
+            "src": "assets/images/bookworms-detail.png"
           },
           {
             "title": "ユーザープロフィール",
-            "src": "assets/images/bookworms-user-profile.png"
+            "src": "assets/images/bookworms-post.png"
           }
+          
         ],
-        "url": "https://www.bookworms.com",
+        "url": "https://github.com/tanvirkse101/499Project",
         "detail": "<p>Bookwormsプロジェクトは、新しい本や中古本を共有、交換、貸し出し、販売するためのダイナミックなウェブサイトとAndroidアプリの作成を含みます。ユーザーの行動や興味に基づいて書籍を提案するために、機械学習アルゴリズムが使用されました。</p>",
-        "codeSourceUrl": null,
+        "codeSourceUrl": "https://github.com/tanvirkse101/499Project",
         "detailIsDisplayed": false
       },
       {
@@ -98,7 +99,7 @@ export const projectsFr = [
         images: [
             {
                 title: 'ホーム',
-                src: "assets/images/HMS-home.png",
+                src: "assets/images/hms-home.png",
             },
             {
                 title: 'ユーザー',
@@ -132,9 +133,9 @@ export const projectsFr = [
             "src": "assets/images/elearning-user-profile.png"
           }
         ],
-        "url": "https://www.elearning.com",
+        "url": "https://github.com/tanvirkse101/CodeIgniter-Project",
         "detail": "<p>e-Learning Webプラットフォームは、学術インターンシッププロジェクトのために作成されたデモ教育プラットフォームです。登録、ユーザートラッキング、出席モジュールが実装されました。</p>",
-        "codeSourceUrl": null,
+        "codeSourceUrl": "https://github.com/tanvirkse101/CodeIgniter-Project",
         "detailIsDisplayed": false
       },
 ];

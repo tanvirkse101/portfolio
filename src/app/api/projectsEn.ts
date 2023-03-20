@@ -57,16 +57,12 @@ export const projectsEn = [
         },
         {
           "title": "Workshop Detail",
-          "src": "assets/images/workshop-workshop-detail.png"
-        },
-        {
-          "title": "Registration",
-          "src": "assets/images/workshop-registration.png"
+          "src": "assets/images/workshop-detail.png"
         }
       ],
-      "url": "https://www.workshop.com",
+      "url": "http://103.94.135.217:8888/2/HSC-ICT-Workshop/",
       "detail": "<p>The Workshop website is a dynamic platform for hosting multiple eSRD-Lab Programs & activities workshops simultaneously. Organizers can manage workshop details, schedules, activities, and registration from the admin panel. The site provides a user-friendly interface for visitors to browse and register for workshops, making it an indispensable tool for anyone interested in these events.</p>",
-      "codeSourceUrl": null,
+      "codeSourceUrl": "https://github.com/eSRD-Lab/workshop",
       "detailIsDisplayed": false
     },
     {
@@ -80,26 +76,26 @@ export const projectsEn = [
           },
           {
             "title": "Book Detail",
-            "src": "assets/images/bookworms-book-detail.png"
+            "src": "assets/images/bookworms-book.png"
           },
           {
-            "title": "User Profile",
-            "src": "assets/images/bookworms-user-profile.png"
+            "title": "Post",
+            "src": "assets/images/bookworms-post.png"
           }
         ],
-        "url": "https://www.bookworms.com",
+        "url": "https://github.com/tanvirkse101/499Project",
         "detail": "<p>The Bookworms project involves creating a dynamic website and Android app for users to share, exchange, rent, and sell both new and used books. Machine learning algorithms were used to suggest books based on user behavior and interests.</p>",
-        "codeSourceUrl": null,
+        "codeSourceUrl": "https://github.com/tanvirkse101/499Project",
         "detailIsDisplayed": false
       },
       {
         id:"HMS",
-        name: "Hospital Management System",
+        name: "H.M.S",
         technologies: 'Java, SpringBoot, Angular 8, MongoDB',
         images: [
             {
                 title:'Home',
-                src:   "assets/images/HMS-home.png",
+                src:   "assets/images/hms-home.png",
             },
             {
                 title:'Users',
@@ -133,9 +129,9 @@ export const projectsEn = [
             "src": "assets/images/elearning-user-profile.png"
           }
         ],
-        "url": "https://www.elearning.com",
+        "url": "https://github.com/tanvirkse101/CodeIgniter-Project",
         "detail": "<p>The e-Learning Web Platform is a demo education platform created for an academic internship project. The registration, user tracking and attendance modules were implemented.</p>",
-        "codeSourceUrl": null,
+        "codeSourceUrl": "https://github.com/tanvirkse101/CodeIgniter-Project",
         "detailIsDisplayed": false
       },
 ];
