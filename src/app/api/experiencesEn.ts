@@ -1,5 +1,18 @@
 export const experiencesEn = [
     {
+        title: "Backend Developer",
+        company: 'Techforing Ltd',
+        period: "2023/02-2023/03",
+        technologies: 'Python, Django, Jenkins, AWS Server, MySQL',
+        missions: [
+            "Python Backend Development",
+            "Automating Jenkins deployment pipeline on AWS server",
+            "Database migration",
+            "Python & Node.js bug fix on server",
+        ],
+        detailIsDisplayed: false,
+    },    
+    {
         title: "Software Engineer",
         company: 'ZUU Co. Ltd',
         period: "2022/12-2023/02",
