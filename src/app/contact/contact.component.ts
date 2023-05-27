@@ -15,6 +15,18 @@ export class ContactComponent implements OnInit {
     this._translationLoaderService.loadTranslations(english, japanese);
   
   }
+  fname = '';
+  email = '';
+  object = '';
+  comment = '';
+
+  sendEmail(): void {
+    const email = 'example@example.com';
+    const subject = 'Contact Inquiry';
+    const body = `Name: ${this.fname}\n\nEmail: ${this.email}\n\nMessage: ${this.comment}`;
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  }
 
   ngOnInit(): void {
    

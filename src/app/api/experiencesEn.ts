@@ -1,7 +1,8 @@
 export const experiencesEn = [
     {
-        title: "Backend Developer",
+        title: "Backend Engineer",
         company: 'Techforing Ltd',
+        link: 'https://techforing.com/',
         period: "2023/02-2023/03",
         technologies: 'Python, Django, Jenkins, AWS Server, MySQL',
         missions: [
@@ -13,8 +14,9 @@ export const experiencesEn = [
         detailIsDisplayed: false,
     },    
     {
-        title: "Software Engineer",
+        title: "Intern",
         company: 'ZUU Co. Ltd',
+        link: 'https://zuu.co.jp/',
         period: "2022/12-2023/02",
         technologies: 'Golang, Vue.js, PostgreSQL',
         missions: [
@@ -28,6 +30,7 @@ export const experiencesEn = [
     {
         title: "Programmer",
         company: 'eSystems Research & Development Lab, BUET',
+        link: 'https://esrdlab.cse.buet.ac.bd/',
         period: "2021/02-2022/04",
         technologies: 'Python, Django, Flask, Angular 8',
         missions: [
@@ -41,8 +44,9 @@ export const experiencesEn = [
         detailIsDisplayed: false,
     },
     {
-        title: "Full-stack Intern",
+        title: "Intern",
         company: 'eSystems Research & Development Lab, BUET',
+        link: 'https://esrdlab.cse.buet.ac.bd/',
         period: "2020/09-2021/01",
         technologies: 'Java, Spring-Boot, Angular, MongoDB',
         missions: [

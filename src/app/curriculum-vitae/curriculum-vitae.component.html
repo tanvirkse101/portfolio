@@ -28,7 +28,7 @@
                 <ul class="timeline">
                     <li *ngFor="let experience of experiences;">
                         <h5>{{experience.title}}</h5>
-                        <em>{{experience.company}}</em>
+                        <em><a target="_blank" href="{{experience.link}}">{{experience.company}}</a></em>
                         <div class="d-flex flex-row">
                             <p class="year p-2 d-flex justify-content-center">{{experience.period}}</p>
                             <button (click)="detailOnClick(experience)" type="button"
@@ -65,7 +65,7 @@
                         <h4><strong>{{'education.centerOfInterest' | translate}}</strong></h4>
                         <div class="noProgress langue">
                             <span>
-                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i> Football, Basketball, Boxing, MMA</i>
+                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i> Soccer, Basketball, Boxing</i>
                             </span>
                         </div>
 
@@ -84,7 +84,7 @@
                         <div class="noProgress langue">
                             <span>
                                 <fa-icon [icon]="musicIcon"></fa-icon><strong> {{'education.music' | translate}} </strong> <i class="val">
-                                    Pop, Heavy Metal</i>
+                                    Pop, Metal, Rock</i>
                             </span>
                         </div>
                     </div>
