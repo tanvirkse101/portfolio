@@ -60,7 +60,7 @@ export const locale = {
             'home': 'ホーム',
             'about': '自己紹介',
             'skills': 'スキル',
-            'references': '参照',
+            'references': '動画',
             'contactMe': 'コンタクト'
             },
             'home': {
@@ -72,7 +72,7 @@ export const locale = {
             'sourceCode':'コード'
             },
             'references': {
-            'title': '参照'
+            'title': '自己紹介の動画'
             },
             'skills': {
             'title': 'スキル',

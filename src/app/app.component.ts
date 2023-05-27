@@ -21,37 +21,22 @@ export class AppComponent implements OnInit {
     if (!localStorage.getItem("lang")) {
       localStorage.setItem("lang", 'en');
     }
-    let lang:any=localStorage.getItem("lang"); 
+    let lang: any = localStorage.getItem("lang");
     this._translateService.setDefaultLang(lang);
     this._translateService.use(lang);
-    // setTimeout(() => {
-    //   const section = this.elementRef.nativeElement.querySelector('#about');
-    //   if (section) {
-    //     section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-    //   }
-    // }, 3500);
-    let inactiveTime = 0;
-
-    document.addEventListener('mousemove', function() {
-      inactiveTime = 0;
-    });
-
-    document.addEventListener('keydown', function() {
-      inactiveTime = 0;
-    });
-
+  
+    let hasScrolled = false;
+  
     const scrollTimeout = () => {
-      if (inactiveTime >= 4000) {
+      if (!hasScrolled) {
         const section = this.elementRef.nativeElement.querySelector('#about');
         if (section) {
           section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+          hasScrolled = true;
         }
-      } else {
-        inactiveTime += 1000;
-        setTimeout(scrollTimeout, 1000);
       }
     };
-
+  
     setTimeout(scrollTimeout, 3500);
   }
 }

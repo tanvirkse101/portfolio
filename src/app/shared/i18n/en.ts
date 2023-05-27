@@ -60,7 +60,7 @@ export const locale = {
             'home': 'Home',
             'about': 'About',
             'skills': 'Skills',
-            'references': 'References',
+            'references': 'Video',
             'contactMe': 'Contact me',
         },
         'home': {
@@ -72,7 +72,7 @@ export const locale = {
             'sourceCode':'Source code',
         },
         'references': {
-            'title': 'References',
+            'title': 'Self-introduction Video',
         },
         'skills': {
             'title': 'Skills',

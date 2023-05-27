@@ -9,7 +9,8 @@ import Typed from 'typed.js';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  showBackground: boolean = true;
+  
   constructor(private _translationLoaderService: TranslationLoaderService) {
     this._translationLoaderService.loadTranslations(english, japanese);
   }
