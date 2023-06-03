@@ -52,8 +52,7 @@ export const experiencesEn = [
         missions: [
             "Full-stack Development",
             "Develop Hospital Management System with Spring-Boot, Angular & MongoDB",
-            "Develop modules of e-Learning Platform using PHP, CodeIgniter & MySQL",
-            "Study Japanese language",
+            "Develop modules of e-Learning Platform using PHP, CodeIgniter & MySQL"
         ],
         detailIsDisplayed: false,
     }
