@@ -55,18 +55,18 @@ export const experiencesEn = [
         ],
         detailIsDisplayed: false,
     },
-    {
-        title: "Intern",
-        company: 'eSystems Research & Development Lab, BUET',
-        link: 'https://esrdlab.cse.buet.ac.bd/',
-        period: "2020/09-2021/01",
-        technologies: 'Java, Spring-Boot, Angular, MongoDB',
-        missions: [
-            "Full-stack Development",
-            "Develop Hospital Management System with Spring-Boot, Angular & MongoDB",
-            "Develop modules of e-Learning Platform using PHP, CodeIgniter & MySQL"
-        ],
-        detailIsDisplayed: false,
-    }
+    // {
+    //     title: "Intern",
+    //     company: 'eSystems Research & Development Lab, BUET',
+    //     link: 'https://esrdlab.cse.buet.ac.bd/',
+    //     period: "2020/09-2021/01",
+    //     technologies: 'Java, Spring-Boot, Angular, MongoDB',
+    //     missions: [
+    //         "Full-stack Development",
+    //         "Develop Hospital Management System with Spring-Boot, Angular & MongoDB",
+    //         "Develop modules of e-Learning Platform using PHP, CodeIgniter & MySQL"
+    //     ],
+    //     detailIsDisplayed: false,
+    // }
 ];
 
