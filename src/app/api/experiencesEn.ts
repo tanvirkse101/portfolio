@@ -1,5 +1,18 @@
 export const experiencesEn = [
     {
+        title: "Trainee",
+        company: 'B-Jet',
+        link: 'https://bjet.org/',
+        period: "2023/02-2023/03",
+        technologies: 'Python',
+        missions: [
+            "Software Engineering Basics",
+            "Programming Contest",
+            "Learn Japanese language & Culture",
+        ],
+        detailIsDisplayed: false,
+    },    
+    {
         title: "Backend Engineer",
         company: 'Techforing Ltd',
         link: 'https://techforing.com/',
@@ -31,15 +44,14 @@ export const experiencesEn = [
         title: "Programmer",
         company: 'eSystems Research & Development Lab, BUET',
         link: 'https://esrdlab.cse.buet.ac.bd/',
-        period: "2021/02-2022/04",
+        period: "2020/09-2022/04",
         technologies: 'Python, Django, Flask, Angular 8',
         missions: [
             "Full stack development of VIS Project",
             "Front-end development of NCDW",
             "Server Deployment",
             "System Design",
-            "Survey & Research",
-            "Mentorship of interns",
+            "Survey & Research"
         ],
         detailIsDisplayed: false,
     },

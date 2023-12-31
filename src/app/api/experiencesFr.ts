@@ -1,5 +1,18 @@
 export const experiencesFr = [
     {
+        title: "Trainee",
+        company: 'B-Jet',
+        link: 'https://bjet.org/',
+        period: "2023/02-2023/03",
+        technologies: 'Python',
+        missions: [
+            "ソフトウェア工学の基礎",
+            "プログラミングコンテスト",
+            "日本語と日本文化を学ぶ"
+        ],
+        detailIsDisplayed: false,
+    }, 
+    {
         title: "Backend Engineer",
         company: 'Techforing Ltd',
         link: 'https://techforing.com/',
