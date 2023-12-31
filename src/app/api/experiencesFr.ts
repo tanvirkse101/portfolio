@@ -44,7 +44,7 @@ export const experiencesFr = [
         title: "Programmer",
         company: 'eSystems Research & Development Lab, BUET',
         link: 'https://esrdlab.cse.buet.ac.bd/',
-        period: "2021/02-2022/04",
+        period: "2020/09-2022/04",
         technologies: 'Python, Django, Flask, Angular 8',
         missions:[
             "VISプロジェクトのフルスタック開発をする",
@@ -53,19 +53,6 @@ export const experiencesFr = [
             "システムデザインをする",
             "調査・研究をする",
             "インターンの指導をする"
-        ],
-        detailIsDisplayed: false,
-    },
-    {
-        title: "Intern",
-        company: 'eSystems Research & Development Lab, BUET',
-        link: 'https://esrdlab.cse.buet.ac.bd/',
-        period: "2020/09-2021/01",
-        technologies: 'Java, Spring-Boot, Angular, MongoDB',
-        missions: [
-            "フルスタック開発をする",
-            "Spring-Boot、Angular、およびMongoDBを使用して病院管理システムを開発する",
-            "PHP、CodeIgniter、およびMySQLを使用してe-Learningプラットフォームのモジュールを開発する",
         ],
         detailIsDisplayed: false,
     }
